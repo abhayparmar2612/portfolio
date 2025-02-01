@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-3xl font-bold">Abhay</a>
+            <div class="space-x-4">
+                <a href="#skills" class="hover:text-gray-200">Skills</a>
+                <a href="#projects" class="hover:text-gray-200">Projects</a>
+                <a href="#contact" class="hover:text-gray-200">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-blue-600 text-white text-center py-32 bg-cover bg-center" style="background-image: url('https://source.unsplash.com/random/1600x900/?machine-learning,AI');">
+        <div class="container mx-auto px-6">
+            <h1 class="text-5xl font-bold drop-shadow-lg">Hello, I'm Abhay</h1>
+            <p class="mt-4 text-lg drop-shadow-md">I create machine learning models and deploy them in the cloud.</p>
+            <a href="#contact" class="mt-6 inline-block px-6 py-3 bg-yellow-500 text-black text-lg font-semibold rounded-full hover:bg-yellow-400 transition-all">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container mx-auto py-16 px-6">
+        <h2 class="text-4xl font-bold text-center mb-12">My Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Python Skill -->
+            <div class="bg-white p-6 rounded-lg shadow-xl text-center hover:shadow-2xl transition-all">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="w-24 h-24 mx-auto mb-4">
+                <h3 class="text-2xl font-semibold">Python</h3>
+                <p class="mt-2">Expert in Python, especially in backend development with Django.</p>
+            </div>
+            <!-- Data Science Skill -->
+            <div class="bg-white p-6 rounded-lg shadow-xl text-center hover:shadow-2xl transition-all">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R" class="w-24 h-24 mx-auto mb-4">
+                <h3 class="text-2xl font-semibold">Data Science</h3>
+                <p class="mt-2">Skilled in handling data and manipulation with NumPy, Pandas, and visualization with Matplotlib and Seaborn.</p>
+            </div>
+            <!-- Machine Learning Skill -->
+            <div class="bg-white p-6 rounded-lg shadow-xl text-center hover:shadow-2xl transition-all">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="Machine Learning" class="w-24 h-24 mx-auto mb-4">
+                <h3 class="text-2xl font-semibold">Machine Learning</h3>
+                <p class="mt-2">Proficient in building and deploying machine learning models using TensorFlow, Keras, and scikit-learn.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-200 py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-12">Featured Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Ice-Cream Sales Prediction -->
+                <div class="bg-white p-6 rounded-lg shadow-xl hover:shadow-2xl transition-all">
+                    <img src="https://via.placeholder.com/300?text=Ice+Cream+Sales" alt="Ice Cream Sales Prediction" class="w-full h-48 object-cover mb-4 rounded-lg">
+                    <h3 class="text-2xl font-semibold">Predictive Model for Ice-Cream Sales</h3>
+                    <p class="mt-2">Model predicting ice-cream sales based on environmental temperature.</p>
+                </div>
+                <!-- House Price Prediction -->
+                <div class="bg-white p-6 rounded-lg shadow-xl hover:shadow-2xl transition-all">
+                    <img src="https://via.placeholder.com/300?text=House+Price+Prediction" alt="House Price Prediction" class="w-full h-48 object-cover mb-4 rounded-lg">
+                    <h3 class="text-2xl font-semibold">House Price Prediction</h3>
+                    <p class="mt-2">Predicting house prices based on location and features.</p>
+                </div>
+                <!-- Dog/Cat Image Recognition -->
+                <div class="bg-white p-6 rounded-lg shadow-xl hover:shadow-2xl transition-all">
+                    <img src="https://via.placeholder.com/300?text=Image+Recognition" alt="Image Recognition" class="w-full h-48 object-cover mb-4 rounded-lg">
+                    <h3 class="text-2xl font-semibold">Dog/Cat Image Recognition</h3>
+                    <p class="mt-2">A classification model to recognize dog and cat breeds.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto py-16 text-center">
+        <h2 class="text-4xl font-bold mb-8">Contact Me</h2>
+        <p class="text-lg mb-8">I'd love to hear from you. Let's get in touch!</p>
+        <a href="mailto:your.email@example.com" class="px-8 py-3 bg-yellow-500 text-black text-lg font-semibold rounded-full hover:bg-yellow-400 transition-all">Email Me</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-6 text-center">
+        <p>&copy; 2025 www.predbase.com <br> All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
